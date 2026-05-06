@@ -22,7 +22,7 @@
 
 ## 대시보드
 
-> 전체 **93개** 페이지 · 작성완료 **7개** · 미작성 **86개** · 마지막 업데이트 **2026-05-05**
+> 전체 **94개** 페이지 · 작성완료 **8개** · 미작성 **86개** · 마지막 업데이트 **2026-05-06**
 
 ### 카테고리별 현황
 
@@ -41,9 +41,9 @@
 | DB | 3 | 0 | 0% | [docs/db/](docs/db/) |
 | AI | 3 | 0 | 0% | [docs/ai/](docs/ai/) |
 | Malloc Lab | 2 | 0 | 0% | [docs/malloc-lab/](docs/malloc-lab/) |
-| 회의록 | 6 | 6 | 100% | [docs/meeting-minutes/](docs/meeting-minutes/) |
+| 회의록 | 7 | 7 | 100% | [docs/meeting-minutes/](docs/meeting-minutes/) |
 | 팀운영 | 7 | 1 | 14% | [docs/팀운영/](docs/팀운영/) |
-| **합계** | **93** | **7** | **8%** | — |
+| **합계** | **94** | **8** | **9%** | — |
 
 > **작성완료** 기준: `_작성 필요_`/`_링크 추가_` 플레이스홀더가 모두 제거되고 본문이 채워진 페이지.
 
@@ -53,7 +53,7 @@
 
 지금 바로 읽을 수 있는, 본문이 채워진 페이지들입니다.
 
-### 회의록 (6)
+### 회의록 (7)
 
 | 일자 | 제목 | 키워드 |
 |:----:|------|--------|
@@ -63,6 +63,7 @@
 | 2026-04-30 | [회의록 — 2026-04-30 (Week 10)](docs/meeting-minutes/week9/2026-04-30.md) | 팀별 진행 현황, 코드 리뷰/머지, 다음 주 방식 |
 | 2026-05-01 | [회의록 — 2026-05-01](docs/meeting-minutes/week10/2026-05-01.md) | Wiki 업로드 협조, 6조 Notion 토글 활용 |
 | 2026-05-02 | [팀장 회의록 — 2026-05-02 (토)](docs/meeting-minutes/week10/2026-05-02.md) | 반 전체 커밋 컨벤션 합의, argument passing 진척, 팀별 협업 방식 |
+| 2026-05-04 | [팀장 회의록 — 2026-05-04 (월)](docs/meeting-minutes/week10/2026-05-04.md) | argument passing 이후 역할 분담, file descriptor 설계, 코치 질의 정리, Extension publish |
 
 ### 팀 운영 (1)
 
@@ -80,36 +81,36 @@
 
 | # | 페이지 | 카테고리 | 상태 | 최종 수정일 |
 |:--:|--------|----------|:----:|:-----------:|
-| 1 | [팀장 회의록 — 2026-05-02](docs/meeting-minutes/week10/2026-05-02.md) | 회의록 | 완료 | 2026-05-03 |
-| 2 | [회의록 — 2026-05-01](docs/meeting-minutes/week10/2026-05-01.md) | 회의록 | 완료 | 2026-05-03 |
-| 3 | [Week 10 팀 레포 현황](docs/팀운영/주차별-팀레포/week10.md) | 팀운영 | 완료 | 2026-05-02 |
-| 4 | [회의록 — 2026-04-30](docs/meeting-minutes/week9/2026-04-30.md) | 회의록 | 완료 | 2026-04-30 |
-| 5 | [팀장 회의록 — 2026-04-29](docs/meeting-minutes/week9/2026-04-28.md) | 회의록 | 완료 | 2026-04-29 |
-| 6 | [팀 회의록 — 2026-04-27](docs/meeting-minutes/week9/2026-04-27.md) | 회의록 | 완료 | 2026-04-28 |
-| 7 | [REST API](docs/네트워크/rest-api.md) | 네트워크 | 스텁 | 2026-04-27 |
-| 8 | [프록시 서버](docs/네트워크/proxy.md) | 네트워크 | 스텁 | 2026-04-27 |
-| 9 | [TCP/IP, UDP, HTTP, DNS](docs/네트워크/protocols.md) | 네트워크 | 스텁 | 2026-04-27 |
-| 10 | [OSI 7계층](docs/네트워크/osi-7-layer.md) | 네트워크 | 스텁 | 2026-04-27 |
-| 11 | [HTTP Methods](docs/네트워크/http-methods.md) | 네트워크 | 스텁 | 2026-04-27 |
-| 12 | [CDN](docs/네트워크/cdn.md) | 네트워크 | 스텁 | 2026-04-27 |
-| 13 | [BSD 소켓](docs/네트워크/bsd-socket.md) | 네트워크 | 스텁 | 2026-04-27 |
-| 14 | [JavaScript](docs/web-security/javascript.md) | 웹 보안 | 스텁 | 2026-04-27 |
-| 15 | [HTTP & Security](docs/web-security/http-security.md) | 웹 보안 | 스텁 | 2026-04-27 |
-| 16 | [암호 보안](docs/web-security/cryptography.md) | 웹 보안 | 스텁 | 2026-04-27 |
-| 17 | [회원관리 (OAuth2)](docs/web-security/authentication.md) | 웹 보안 | 스텁 | 2026-04-27 |
-| 18 | [LLM](docs/ai/llm.md) | AI | 스텁 | 2026-04-27 |
-| 19 | [신경망](docs/ai/neural-network.md) | AI | 스텁 | 2026-04-27 |
-| 20 | [AI 응용기술](docs/ai/ai-applications.md) | AI | 스텁 | 2026-04-27 |
-| 21 | [Swap In/Out](docs/pintos/project3-vm/swap.md) | Pintos P3 | 스텁 | 2026-04-27 |
-| 22 | [Paging (Pintos)](docs/pintos/project3-vm/paging.md) | Pintos P3 | 스텁 | 2026-04-27 |
-| 23 | [Page Types](docs/pintos/project3-vm/page-types.md) | Pintos P3 | 스텁 | 2026-04-27 |
-| 24 | [MMU, TLB](docs/pintos/project3-vm/mmu-tlb.md) | Pintos P3 | 스텁 | 2026-04-27 |
-| 25 | [Copy on Write](docs/pintos/project3-vm/cow.md) | Pintos P3 | 스텁 | 2026-04-27 |
-| 26 | [Buffer Cache](docs/pintos/project4-filesys/buffer-cache.md) | Pintos P4 | 스텁 | 2026-04-27 |
-| 27 | [FS Components](docs/pintos/project4-filesys/fs-components.md) | Pintos P4 | 스텁 | 2026-04-27 |
-| 28 | [FS Implementation](docs/pintos/project4-filesys/fs-implementation.md) | Pintos P4 | 스텁 | 2026-04-27 |
-| 29 | [FS Types](docs/pintos/project4-filesys/fs-types.md) | Pintos P4 | 스텁 | 2026-04-27 |
-| 30 | [Mount & Journaling](docs/pintos/project4-filesys/mount-journaling.md) | Pintos P4 | 스텁 | 2026-04-27 |
+| 1 | [팀장 회의록 — 2026-05-04 (월)](docs/meeting-minutes/week10/2026-05-04.md) | 회의록 | 완료 | 2026-05-05 |
+| 2 | [팀장 회의록 — 2026-05-02](docs/meeting-minutes/week10/2026-05-02.md) | 회의록 | 완료 | 2026-05-03 |
+| 3 | [회의록 — 2026-05-01](docs/meeting-minutes/week10/2026-05-01.md) | 회의록 | 완료 | 2026-05-03 |
+| 4 | [Week 10 팀 레포 현황](docs/팀운영/주차별-팀레포/week10.md) | 팀운영 | 완료 | 2026-05-02 |
+| 5 | [회의록 — 2026-04-30](docs/meeting-minutes/week9/2026-04-30.md) | 회의록 | 완료 | 2026-04-30 |
+| 6 | [팀장 회의록 — 2026-04-29](docs/meeting-minutes/week9/2026-04-28.md) | 회의록 | 완료 | 2026-04-29 |
+| 7 | [팀 회의록 — 2026-04-27](docs/meeting-minutes/week9/2026-04-27.md) | 회의록 | 완료 | 2026-04-28 |
+| 8 | [REST API](docs/네트워크/rest-api.md) | 네트워크 | 스텁 | 2026-04-27 |
+| 9 | [프록시 서버](docs/네트워크/proxy.md) | 네트워크 | 스텁 | 2026-04-27 |
+| 10 | [TCP/IP, UDP, HTTP, DNS](docs/네트워크/protocols.md) | 네트워크 | 스텁 | 2026-04-27 |
+| 11 | [OSI 7계층](docs/네트워크/osi-7-layer.md) | 네트워크 | 스텁 | 2026-04-27 |
+| 12 | [HTTP Methods](docs/네트워크/http-methods.md) | 네트워크 | 스텁 | 2026-04-27 |
+| 13 | [CDN](docs/네트워크/cdn.md) | 네트워크 | 스텁 | 2026-04-27 |
+| 14 | [BSD 소켓](docs/네트워크/bsd-socket.md) | 네트워크 | 스텁 | 2026-04-27 |
+| 15 | [JavaScript](docs/web-security/javascript.md) | 웹 보안 | 스텁 | 2026-04-27 |
+| 16 | [HTTP & Security](docs/web-security/http-security.md) | 웹 보안 | 스텁 | 2026-04-27 |
+| 17 | [암호 보안](docs/web-security/cryptography.md) | 웹 보안 | 스텁 | 2026-04-27 |
+| 18 | [회원관리 (OAuth2)](docs/web-security/authentication.md) | 웹 보안 | 스텁 | 2026-04-27 |
+| 19 | [LLM](docs/ai/llm.md) | AI | 스텁 | 2026-04-27 |
+| 20 | [신경망](docs/ai/neural-network.md) | AI | 스텁 | 2026-04-27 |
+| 21 | [AI 응용기술](docs/ai/ai-applications.md) | AI | 스텁 | 2026-04-27 |
+| 22 | [Swap In/Out](docs/pintos/project3-vm/swap.md) | Pintos P3 | 스텁 | 2026-04-27 |
+| 23 | [Paging (Pintos)](docs/pintos/project3-vm/paging.md) | Pintos P3 | 스텁 | 2026-04-27 |
+| 24 | [Page Types](docs/pintos/project3-vm/page-types.md) | Pintos P3 | 스텁 | 2026-04-27 |
+| 25 | [MMU, TLB](docs/pintos/project3-vm/mmu-tlb.md) | Pintos P3 | 스텁 | 2026-04-27 |
+| 26 | [Copy on Write](docs/pintos/project3-vm/cow.md) | Pintos P3 | 스텁 | 2026-04-27 |
+| 27 | [Buffer Cache](docs/pintos/project4-filesys/buffer-cache.md) | Pintos P4 | 스텁 | 2026-04-27 |
+| 28 | [FS Components](docs/pintos/project4-filesys/fs-components.md) | Pintos P4 | 스텁 | 2026-04-27 |
+| 29 | [FS Implementation](docs/pintos/project4-filesys/fs-implementation.md) | Pintos P4 | 스텁 | 2026-04-27 |
+| 30 | [FS Types](docs/pintos/project4-filesys/fs-types.md) | Pintos P4 | 스텁 | 2026-04-27 |
 
 > 범례: `완료` 본문 작성 완료 · `스텁` 작성 필요 · `작성중` 작성 진행 중
 
@@ -161,9 +162,9 @@ RDBMS vs NoSQL · Index · B-Tree / B+ Tree
 
 신경망 (퍼셉트론, MLP, 활성화/손실/역전파) · LLM (Transformer, GPT, Attention, Fine-tuning) · AI 응용기술 (RAG, MCP, AI Agent)
 
-### [회의록](docs/meeting-minutes/) — 6개 (전부 작성완료)
+### [회의록](docs/meeting-minutes/) — 7개 (전부 작성완료)
 
-Week 9 (4/25, 4/27, 4/29, 4/30) · Week 10 (5/01, 5/02)
+Week 9 (4/25, 4/27, 4/29, 4/30) · Week 10 (5/01, 5/02, 5/04)
 
 ### [팀 운영](docs/팀운영/) — 7개
 
