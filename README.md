@@ -4,7 +4,7 @@
 
 > 매일 새벽 자동 인덱싱 작업으로 갱신됩니다. 대시보드와 최근 업데이트는 `git log` 기반으로 다시 작성됩니다.
 >
-> **오늘의 업데이트 (2026-05-11):** 신규 커밋 없음 — 마지막 콘텐츠 변경은 2026-05-05의 5/04 회의록(`be60d65`), 마지막 인덱싱은 2026-05-10(`1452f21`)입니다. 최근 6일간 새 콘텐츠 푸시가 없어 인덱싱은 무결성 점검(파일 114개·키워드 페이지 94개·중복 0건)만 수행했고 페이지 수·진행률에 변동은 없습니다.
+> **오늘의 업데이트 (2026-05-12):** Week 11 팀장 회의록 2건(`2026-05-08`, `2026-05-11`)이 추가되었고, 발표 자료 아카이브가 `docs/발표 ppt 공유/`로 일원화되었습니다. 9주차 발표자료 3건(3팀·5팀·6팀)과 10주차 발표자료 2건(3팀·5팀), 업로드 가이드 1건이 인덱스에 반영되었습니다. 페이지 **94 → 102**, 작성완료 **8 → 16(16%)**. 직전 인덱싱(2026-05-11) 이후 감지되었던 `ppt_template/` vs `발표 ppt 공유/` 경로 중복은 팀이 `발표 ppt 공유/`로 통일하면서 **해소**되었습니다.
 
 ---
 
@@ -24,7 +24,7 @@
 
 ## 대시보드
 
-> 전체 **94개** 페이지 · 작성완료 **8개** · 미작성 **86개** · 마지막 인덱싱 **2026-05-11** · 마지막 콘텐츠 커밋 **2026-05-05**
+> 전체 **102개** 페이지 · 작성완료 **16개** · 미작성 **86개** · 마지막 인덱싱 **2026-05-12** · 마지막 콘텐츠 커밋 **2026-05-12**
 
 ### 카테고리별 현황
 
@@ -43,11 +43,12 @@
 | DB | 3 | 0 | 0% | [docs/db/](docs/db/) |
 | AI | 3 | 0 | 0% | [docs/ai/](docs/ai/) |
 | Malloc Lab | 2 | 0 | 0% | [docs/malloc-lab/](docs/malloc-lab/) |
-| 회의록 | 7 | 7 | 100% | [docs/meeting-minutes/](docs/meeting-minutes/) |
+| 회의록 | 9 | 9 | 100% | [docs/meeting-minutes/](docs/meeting-minutes/) |
 | 팀운영 | 7 | 1 | 14% | [docs/팀운영/](docs/팀운영/) |
-| **합계** | **94** | **8** | **9%** | — |
+| 발표 자료 | 6 | 6 | 100% | [docs/발표 ppt 공유/](docs/발표%20ppt%20공유/) |
+| **합계** | **102** | **16** | **16%** | — |
 
-> **작성완료** 기준: `_작성 필요_`/`_링크 추가_` 플레이스홀더가 모두 제거되고 본문이 채워진 페이지.
+> **작성완료** 기준: `_작성 필요_`/`_링크 추가_` 플레이스홀더가 모두 제거되고 본문이 채워진 페이지. 발표 자료는 업로드된 `.pptx` 및 가이드 문서를 기준으로 합니다.
 
 ---
 
@@ -55,7 +56,7 @@
 
 지금 바로 읽을 수 있는, 본문이 채워진 페이지들입니다.
 
-### 회의록 (7)
+### 회의록 (9)
 
 | 일자 | 제목 | 키워드 |
 |:----:|------|--------|
@@ -66,6 +67,8 @@
 | 2026-05-01 | [회의록 — 2026-05-01](docs/meeting-minutes/week10/2026-05-01.md) | Wiki 업로드 협조, 6조 Notion 토글 활용 |
 | 2026-05-02 | [팀장 회의록 — 2026-05-02 (토)](docs/meeting-minutes/week10/2026-05-02.md) | 반 전체 커밋 컨벤션 합의, argument passing 진척, 팀별 협업 방식 |
 | 2026-05-04 | [팀장 회의록 — 2026-05-04 (월)](docs/meeting-minutes/week10/2026-05-04.md) | argument passing 이후 역할 분담, file descriptor 설계, 코치 질의 정리, Extension publish |
+| 2026-05-08 | [팀장 회의록 — 2026-05-08 (금)](docs/meeting-minutes/week11/2026-05-08.md) | 진행 상황 공유 방식 변경 (회의실 → Google Sheet) |
+| 2026-05-11 | [팀장 회의록 — 2026-05-11 (월)](docs/meeting-minutes/week11/2026-05-11.md) | WIKI 회의록 정착, 발표자료 아카이빙, 반장/MC 운영, 팀장 인수인계 |
 
 ### 팀 운영 (1)
 
@@ -73,46 +76,57 @@
 |------|------|
 | [Week 10 팀 레포 현황](docs/팀운영/주차별-팀레포/week10.md) | 1~7조 Pintos Project 2 레포 링크 모음과 코드 리뷰 협업 방법 |
 
+### 발표 자료 (6)
+
+| 자료 | 형식 | 설명 |
+|------|:----:|------|
+| [발표 자료 업로드 안내](docs/발표%20ppt%20공유/presentation-upload-guide.md) | `.md` | 주차별 폴더 구성, `.pptx` 형식 권장, 폰트 공유 방침 |
+| [9주차 3팀 발표 자료](docs/발표%20ppt%20공유/week9/9주차-3팀.pptx) | `.pptx` | Week 9 정기 발표 (3팀) |
+| [9주차 5팀 발표 자료](docs/발표%20ppt%20공유/week9/9주차-5팀.pptx) | `.pptx` | Week 9 정기 발표 (5팀) |
+| [9주차 6팀 발표 자료](docs/발표%20ppt%20공유/week9/9%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1-6%E1%84%90%E1%85%B5%E1%86%B7.pptx) | `.pptx` | Week 9 정기 발표 (6팀) |
+| [10주차 3팀 발표 자료](docs/발표%20ppt%20공유/week10/10주차-3팀.pptx) | `.pptx` | Week 10 정기 발표 (3팀) |
+| [10주차 5팀 발표 자료](docs/발표%20ppt%20공유/week10/10주차-5팀.pptx) | `.pptx` | Week 10 정기 발표 (5팀) |
+
 > 회의록의 파일명(`2026-04-28.md`)과 본문 일자(`2026-04-29`)가 다른 경우가 있습니다. 본 인덱스에서는 본문 일자를 기준으로 표기했습니다.
 
 ---
 
 ## 최근 업데이트
 
-`git log` 기준 가장 최근에 수정된 30개 페이지입니다.
+`git log` 기준 가장 최근에 수정/추가된 30개 항목입니다.
 
 | # | 페이지 | 카테고리 | 상태 | 최종 수정일 |
 |:--:|--------|----------|:----:|:-----------:|
-| 1 | [팀장 회의록 — 2026-05-04 (월)](docs/meeting-minutes/week10/2026-05-04.md) | 회의록 | 완료 | 2026-05-05 |
-| 2 | [팀장 회의록 — 2026-05-02](docs/meeting-minutes/week10/2026-05-02.md) | 회의록 | 완료 | 2026-05-03 |
-| 3 | [회의록 — 2026-05-01](docs/meeting-minutes/week10/2026-05-01.md) | 회의록 | 완료 | 2026-05-03 |
-| 4 | [Week 10 팀 레포 현황](docs/팀운영/주차별-팀레포/week10.md) | 팀운영 | 완료 | 2026-05-02 |
-| 5 | [회의록 — 2026-04-30](docs/meeting-minutes/week9/2026-04-30.md) | 회의록 | 완료 | 2026-04-30 |
-| 6 | [팀장 회의록 — 2026-04-29](docs/meeting-minutes/week9/2026-04-28.md) | 회의록 | 완료 | 2026-04-29 |
-| 7 | [팀 회의록 — 2026-04-27](docs/meeting-minutes/week9/2026-04-27.md) | 회의록 | 완료 | 2026-04-28 |
-| 8 | [REST API](docs/네트워크/rest-api.md) | 네트워크 | 스텁 | 2026-04-27 |
-| 9 | [프록시 서버](docs/네트워크/proxy.md) | 네트워크 | 스텁 | 2026-04-27 |
-| 10 | [TCP/IP, UDP, HTTP, DNS](docs/네트워크/protocols.md) | 네트워크 | 스텁 | 2026-04-27 |
-| 11 | [OSI 7계층](docs/네트워크/osi-7-layer.md) | 네트워크 | 스텁 | 2026-04-27 |
-| 12 | [HTTP Methods](docs/네트워크/http-methods.md) | 네트워크 | 스텁 | 2026-04-27 |
-| 13 | [CDN](docs/네트워크/cdn.md) | 네트워크 | 스텁 | 2026-04-27 |
-| 14 | [BSD 소켓](docs/네트워크/bsd-socket.md) | 네트워크 | 스텁 | 2026-04-27 |
-| 15 | [JavaScript](docs/web-security/javascript.md) | 웹 보안 | 스텁 | 2026-04-27 |
-| 16 | [HTTP & Security](docs/web-security/http-security.md) | 웹 보안 | 스텁 | 2026-04-27 |
-| 17 | [암호 보안](docs/web-security/cryptography.md) | 웹 보안 | 스텁 | 2026-04-27 |
-| 18 | [회원관리 (OAuth2)](docs/web-security/authentication.md) | 웹 보안 | 스텁 | 2026-04-27 |
-| 19 | [LLM](docs/ai/llm.md) | AI | 스텁 | 2026-04-27 |
-| 20 | [신경망](docs/ai/neural-network.md) | AI | 스텁 | 2026-04-27 |
-| 21 | [AI 응용기술](docs/ai/ai-applications.md) | AI | 스텁 | 2026-04-27 |
-| 22 | [Swap In/Out](docs/pintos/project3-vm/swap.md) | Pintos P3 | 스텁 | 2026-04-27 |
-| 23 | [Paging (Pintos)](docs/pintos/project3-vm/paging.md) | Pintos P3 | 스텁 | 2026-04-27 |
-| 24 | [Page Types](docs/pintos/project3-vm/page-types.md) | Pintos P3 | 스텁 | 2026-04-27 |
-| 25 | [MMU, TLB](docs/pintos/project3-vm/mmu-tlb.md) | Pintos P3 | 스텁 | 2026-04-27 |
-| 26 | [Copy on Write](docs/pintos/project3-vm/cow.md) | Pintos P3 | 스텁 | 2026-04-27 |
-| 27 | [Buffer Cache](docs/pintos/project4-filesys/buffer-cache.md) | Pintos P4 | 스텁 | 2026-04-27 |
-| 28 | [FS Components](docs/pintos/project4-filesys/fs-components.md) | Pintos P4 | 스텁 | 2026-04-27 |
-| 29 | [FS Implementation](docs/pintos/project4-filesys/fs-implementation.md) | Pintos P4 | 스텁 | 2026-04-27 |
-| 30 | [FS Types](docs/pintos/project4-filesys/fs-types.md) | Pintos P4 | 스텁 | 2026-04-27 |
+| 1  | [9주차 6팀 발표 자료](docs/발표%20ppt%20공유/week9/9%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1-6%E1%84%90%E1%85%B5%E1%86%B7.pptx) | 발표 자료 | 완료 | 2026-05-12 |
+| 2  | [10주차 3팀 발표 자료](docs/발표%20ppt%20공유/week10/10주차-3팀.pptx) | 발표 자료 | 완료 | 2026-05-12 |
+| 3  | [9주차 3팀 발표 자료](docs/발표%20ppt%20공유/week9/9주차-3팀.pptx) | 발표 자료 | 완료 | 2026-05-12 |
+| 4  | [발표 자료 업로드 안내](docs/발표%20ppt%20공유/presentation-upload-guide.md) | 발표 자료 | 완료 | 2026-05-12 |
+| 5  | [10주차 5팀 발표 자료](docs/발표%20ppt%20공유/week10/10주차-5팀.pptx) | 발표 자료 | 완료 | 2026-05-12 |
+| 6  | [9주차 5팀 발표 자료](docs/발표%20ppt%20공유/week9/9주차-5팀.pptx) | 발표 자료 | 완료 | 2026-05-12 |
+| 7  | [팀장 회의록 — 2026-05-11 (월)](docs/meeting-minutes/week11/2026-05-11.md) | 회의록 | 완료 | 2026-05-11 |
+| 8  | [팀장 회의록 — 2026-05-08 (금)](docs/meeting-minutes/week11/2026-05-08.md) | 회의록 | 완료 | 2026-05-11 |
+| 9  | [팀장 회의록 — 2026-05-04 (월)](docs/meeting-minutes/week10/2026-05-04.md) | 회의록 | 완료 | 2026-05-05 |
+| 10 | [팀장 회의록 — 2026-05-02](docs/meeting-minutes/week10/2026-05-02.md) | 회의록 | 완료 | 2026-05-03 |
+| 11 | [회의록 — 2026-05-01](docs/meeting-minutes/week10/2026-05-01.md) | 회의록 | 완료 | 2026-05-03 |
+| 12 | [Week 10 팀 레포 현황](docs/팀운영/주차별-팀레포/week10.md) | 팀운영 | 완료 | 2026-05-02 |
+| 13 | [회의록 — 2026-04-30](docs/meeting-minutes/week9/2026-04-30.md) | 회의록 | 완료 | 2026-04-30 |
+| 14 | [팀장 회의록 — 2026-04-29](docs/meeting-minutes/week9/2026-04-28.md) | 회의록 | 완료 | 2026-04-29 |
+| 15 | [팀 회의록 — 2026-04-27](docs/meeting-minutes/week9/2026-04-27.md) | 회의록 | 완료 | 2026-04-28 |
+| 16 | [REST API](docs/네트워크/rest-api.md) | 네트워크 | 스텁 | 2026-04-27 |
+| 17 | [프록시 서버](docs/네트워크/proxy.md) | 네트워크 | 스텁 | 2026-04-27 |
+| 18 | [TCP/IP, UDP, HTTP, DNS](docs/네트워크/protocols.md) | 네트워크 | 스텁 | 2026-04-27 |
+| 19 | [OSI 7계층](docs/네트워크/osi-7-layer.md) | 네트워크 | 스텁 | 2026-04-27 |
+| 20 | [HTTP Methods](docs/네트워크/http-methods.md) | 네트워크 | 스텁 | 2026-04-27 |
+| 21 | [CDN](docs/네트워크/cdn.md) | 네트워크 | 스텁 | 2026-04-27 |
+| 22 | [BSD 소켓](docs/네트워크/bsd-socket.md) | 네트워크 | 스텁 | 2026-04-27 |
+| 23 | [JavaScript](docs/web-security/javascript.md) | 웹 보안 | 스텁 | 2026-04-27 |
+| 24 | [HTTP & Security](docs/web-security/http-security.md) | 웹 보안 | 스텁 | 2026-04-27 |
+| 25 | [암호 보안](docs/web-security/cryptography.md) | 웹 보안 | 스텁 | 2026-04-27 |
+| 26 | [회원관리 (OAuth2)](docs/web-security/authentication.md) | 웹 보안 | 스텁 | 2026-04-27 |
+| 27 | [LLM](docs/ai/llm.md) | AI | 스텁 | 2026-04-27 |
+| 28 | [신경망](docs/ai/neural-network.md) | AI | 스텁 | 2026-04-27 |
+| 29 | [AI 응용기술](docs/ai/ai-applications.md) | AI | 스텁 | 2026-04-27 |
+| 30 | [Swap In/Out](docs/pintos/project3-vm/swap.md) | Pintos P3 | 스텁 | 2026-04-27 |
 
 > 범례: `완료` 본문 작성 완료 · `스텁` 작성 필요 · `작성중` 작성 진행 중
 
@@ -164,13 +178,17 @@ RDBMS vs NoSQL · Index · B-Tree / B+ Tree
 
 신경망 (퍼셉트론, MLP, 활성화/손실/역전파) · LLM (Transformer, GPT, Attention, Fine-tuning) · AI 응용기술 (RAG, MCP, AI Agent)
 
-### [회의록](docs/meeting-minutes/) — 7개 (전부 작성완료)
+### [회의록](docs/meeting-minutes/) — 9개 (전부 작성완료)
 
-Week 9 (4/25, 4/27, 4/29, 4/30) · Week 10 (5/01, 5/02, 5/04)
+Week 9 (4/25, 4/27, 4/29, 4/30) · Week 10 (5/01, 5/02, 5/04) · Week 11 (5/08, 5/11)
 
 ### [팀 운영](docs/팀운영/) — 7개
 
 [컨벤션](docs/팀운영/컨벤션/) (Git · 코드 · PR/리뷰) · [외부 리소스](docs/팀운영/외부리소스/) (개발 환경 · 학습 자료 · Pintos 도구) · [주차별 팀 레포](docs/팀운영/주차별-팀레포/) (Week 10 작성완료)
+
+### [발표 자료](docs/발표%20ppt%20공유/) — 6개 (전부 작성완료)
+
+[업로드 가이드](docs/발표%20ppt%20공유/presentation-upload-guide.md) · Week 9 발표자료 3건([3팀](docs/발표%20ppt%20공유/week9/9주차-3팀.pptx) · [5팀](docs/발표%20ppt%20공유/week9/9주차-5팀.pptx) · [6팀](docs/발표%20ppt%20공유/week9/9%E1%84%8C%E1%85%AE%E1%84%8E%E1%85%A1-6%E1%84%90%E1%85%B5%E1%86%B7.pptx)) · Week 10 발표자료 2건([3팀](docs/발표%20ppt%20공유/week10/10주차-3팀.pptx) · [5팀](docs/발표%20ppt%20공유/week10/10주차-5팀.pptx))
 
 ---
 
@@ -203,17 +221,18 @@ cd WIKI
 
 ```
 docs/
-  cs-기초/           CS 기본 개념 (메모리, 포인터, 보수 표현 등)
-  algorithm/         알고리즘 및 자료구조
-  malloc-lab/        동적 메모리 할당기 구현
-  네트워크/           TCP/IP, HTTP, REST API, OSI 7계층
-  os/                운영체제 핵심 개념
-  pintos/            Pintos 프로젝트 (Project 0~4)
-  ai/                신경망, LLM, AI 응용기술
-  db/                데이터베이스
-  web-security/      웹 개발 & 보안
-  팀운영/             컨벤션, 외부리소스, 주차별 팀레포
-  meeting-minutes/   팀장 회의록
+  cs-기초/             CS 기본 개념 (메모리, 포인터, 보수 표현 등)
+  algorithm/           알고리즘 및 자료구조
+  malloc-lab/          동적 메모리 할당기 구현
+  네트워크/             TCP/IP, HTTP, REST API, OSI 7계층
+  os/                  운영체제 핵심 개념
+  pintos/              Pintos 프로젝트 (Project 0~4)
+  ai/                  신경망, LLM, AI 응용기술
+  db/                  데이터베이스
+  web-security/        웹 개발 & 보안
+  팀운영/               컨벤션, 외부리소스, 주차별 팀레포
+  meeting-minutes/     팀장 회의록 (Week 9 ~ Week 11)
+  발표 ppt 공유/        업로드 가이드 + 주차별 팀 발표 자료(.pptx)
 ```
 
 각 폴더의 `README.md`가 해당 카테고리의 목차입니다.
@@ -224,6 +243,10 @@ docs/
 2. 해당 키워드의 `README.md` 상태를 `작성 중 (@이름)`으로 변경 후 커밋합니다.
 3. 키워드 파일에 내용을 작성합니다.
 4. 완료 후 상태를 `완료`로 변경하고 커밋합니다.
+
+### 4. 발표 자료 업로드
+
+`docs/발표 ppt 공유/presentation-upload-guide.md`의 안내에 따라 `docs/발표 ppt 공유/week{N}/<주차>-<팀>.pptx` 형식으로 업로드합니다.
 
 ---
 
